@@ -40,7 +40,7 @@ random.char();
 | binary([bit]) | Generate a random binary number. | [Link](https://github.com/mock-end/random-binary#random-binary) |
 | octal([min, max]) | Generate a random octal. | [Link](https://github.com/mock-end/random-octal#random-octal) |
 | hex([min, max]) | Generate a random hexadecimal number. | [Link](https://github.com/mock-end/random-hexadecimal#random-hexadecimal) |
-| dx() | Generate a number between `1` and `x`, where `x` is `5` `10`, `20`, `50`, `100`, `200`, `500` and `1000`. |  |
+| dx() | Generate a number between `1` and `x`,<br> where `x` is `5` `10`, `20`, `50`, `100`, `200`, `500` and `1000`. |  |
 | pickOne(arr) | Randomly sampling a item from an array. | [Link](https://github.com/mock-end/pick-item#pick-item) |
 | pickSome(arr[, options]) | Randomly sampling some items from an array. | [Link](https://github.com/mock-end/pick-items#pick-items) |
 | shuffle(arr) | Randomize the order of the elements in array or array-like object. | [Link](https://github.com/mock-end/shuffle-arr#shuffle-arr) |
@@ -49,14 +49,14 @@ random.char();
 | pickKeys(obj) | Randomly sampling some keys from an object. | [Link](https://github.com/mock-end/pick-keys#pick-keys) |
 | pickProp(obj) | Randomly sampling a property from an object. | [Link](https://github.com/mock-end/pick-prop#pick-prop) |
 | pickProps(obj) | Randomly sampling some properties from an object. | [Link](https://github.com/mock-end/pick-props#pick-props) |
-| date() | | [Link]() |
-| color() | | [Link]() |
-| uuid() | | [Link]() |
-| id() | | [Link]() |
-| lang() | | [Link]() |
-| zipcode() | | [Link]() |
-| mobile() | | [Link]() |
-| tld() | | [Link]() |
+| date([min, max]) | Generate a random date. | [Link](https://github.com/mock-end/random-datetime#random-datetime) |
+| color() | Generate a random color. | [Link](https://github.com/mock-end/random-color#random-color) |
+| uuid([prefix]) | Generate a random uuid. | [Link](https://github.com/mock-end/random-uuid#random-uuid) |
+| id([length]) | Generate a random ID. | [Link](https://github.com/mock-end/random-identity#random-identity) |
+| lang() | Return a random language name. | [Link](https://github.com/mock-end/random-lang#random-lang) |
+| zipcode() | Generate a random chinese zipcode. | [Link](https://github.com/mock-end/random-zipcode#random-zipcode) |
+| mobile() | Return a random Chinese mobile phone number. | [Link](https://github.com/mock-end/random-mobile#random-mobile) |
+| tld() | Return a random tld. | [Link](https://github.com/mock-end/random-tld#random-tld) |
 | domain() | | [Link]() |
 | email() | | [Link]() |
 | url() | | [Link]() |
