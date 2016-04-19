@@ -57,19 +57,19 @@ random.char();
 | zipcode() | Generate a random chinese zipcode. | [Link](https://github.com/mock-end/random-zipcode#random-zipcode) |
 | mobile() | Return a random Chinese mobile phone number. | [Link](https://github.com/mock-end/random-mobile#random-mobile) |
 | tld() | Return a random tld. | [Link](https://github.com/mock-end/random-tld#random-tld) |
-| domain() | | [Link]() |
-| email() | | [Link]() |
-| url() | | [Link]() |
-| ipv4() | | [Link]() |
-| ipv6 | | [Link]() |
-| maleFirstName() | | [Link]() |
-| femaleFirstName() | | [Link]() |
-| lastName() | | [Link]() |
-| name() | | [Link]() |
-| world() | | [Link]() |
-| sentence() | | [Link]() |
-| title() | | [Link]() |
-| paragraph() | | [Link]() |
+| domain([level, tld]) | Generate a random domain name. | [Link](https://github.com/mock-end/random-domains#random-domains) |
+| email([domain]) | Generate a random email address. | [Link](https://github.com/mock-end/random-email#random-email) |
+| url([protocol, query, hash]) | Generate a random url. | [Link](https://github.com/mock-end/random-uri#random-uri) |
+| ipv4([schema, options]) | Generate a random ipv4 address. | [Link](https://github.com/mock-end/random-ipv4#random-ipv4) |
+| ipv6([schema, options]) | Generate a random ipv6 address.| [Link](https://github.com/mock-end/random-ipv6#random-ipv6) |
+| maleFirstName() | Return a random male first-name. | |
+| femaleFirstName() | Return a random female first-name. | |
+| lastName() | Return a random last-name. | |
+| name([middleName]) | Return a random name. | |
+| world([min, max]) | Generate a random world. | [Link](https://github.com/mock-end/random-lorem#random-lorem) |
+| sentence([min, max]) | Generate a random sentence. | [Link](https://github.com/mock-end/random-sentence#random-sentence) |
+| title([min, max]) | Generate a random title. | [Link](https://github.com/mock-end/random-title#random-title) |
+| paragraph([min, max]) | Generate a random paragraph. | [Link](https://github.com/mock-end/random-paragraph#random-paragraph) |
 
 
 ## Contributing
