@@ -1,0 +1,79 @@
+{
+  "name": "random-utility",
+  "version": "1.0.0",
+  "description": "Javascript utilities for generating random data.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "jshint index.js ./lib/*.js",
+    "pretest": "npm run lint",
+    "test": "mocha -R spec",
+    "test:cov": "rm -rf ./test/coverage && istanbul cover _mocha --dir ./test/coverage -- -R spec",
+    "test:rpt": "npm run test:cov && coveralls < ./test/coverage/lcov.info",
+    "prepublish": "npm test"
+  },
+  "keywords": [
+    "random",
+    "randomly",
+    "rand",
+    "sampling",
+    "generator",
+    "generate",
+    "gen",
+    "mock",
+    "util",
+    "utility"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "bubkoo",
+    "email": "bubkoo.wy@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mock-end/random-utility.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mock-end/random-utility/issues"
+  },
+  "homepage": "https://github.com/mock-end/random-utility#readme",
+  "devDependencies": {
+    "jshint": "^2.9.1",
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.9",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "clamp": "^1.0.1",
+    "pick-items": "^1.0.2",
+    "random-binary": "^1.0.1",
+    "random-bool": "^1.0.0",
+    "random-char": "^1.0.1",
+    "random-color": "^1.0.0",
+    "random-datetime": "^1.0.0",
+    "random-decimal": "^1.0.0",
+    "random-domains": "^1.0.1",
+    "random-email": "^1.0.1",
+    "random-hexadecimal": "^1.0.1",
+    "random-identity": "^1.0.0",
+    "random-index": "^1.0.2",
+    "random-integral": "^1.0.1",
+    "random-ipv4": "^1.0.0",
+    "random-ipv6": "^1.0.0",
+    "random-lang": "^1.0.0",
+    "random-lorem": "^1.0.0",
+    "random-mobile": "^1.0.0",
+    "random-natural": "^1.0.1",
+    "random-octal": "^1.0.0",
+    "random-paragraph": "^1.0.0",
+    "random-sentence": "^1.0.1",
+    "random-title": "^1.0.0",
+    "random-tld": "^1.0.0",
+    "random-uri": "^1.0.0",
+    "random-uuid": "^1.0.1",
+    "random-zipcode": "^1.0.0",
+    "shuffle-arr": "^1.0.1",
+    "to-integer": "^1.0.1",
+    "to-str": "^1.0.0"
+  }
+}
