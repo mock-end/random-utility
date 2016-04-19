@@ -29,7 +29,10 @@ random.pickSome = require('pick-items');
 random.shuffle  = require('shuffle-arr');
 random.index    = require('random-index');
 
+
 // datetime
+random.date = require('random-datetime');
+
 
 // form
 random.uuid     = require('random-uuid');
@@ -63,7 +66,6 @@ random.paragraph = require('random-paragraph');
 
 // color
 random.color = require('random-color');
-random.date  = require('random-datetime');
 
 
 module.exports = random;

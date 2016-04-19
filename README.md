@@ -30,6 +30,48 @@ random.char();
 
 ## API
 
+- random.bool()
+- random.char()
+- random.int()
+- random.natural()
+- random.float()
+- random.binary()
+- random.octal()
+- random.hex()
+- random.d5()
+- random.d10()
+- random.d20()
+- random.d50()
+- random.d100()
+- random.d500()
+- random.d1000()
+- random.pickOne()
+- random.pickSome()
+- random.shuffle()
+- random.index()
+- random.date()
+- random.color()
+- random.uuid()
+- random.id()
+- random.lang()
+- random.zipcode()
+- random.mobile()
+- random.tld()
+- random.domain()
+- random.email()
+- random.url()
+- random.ipv4()
+- random.ipv6()
+- random.maleFirstName()
+- random.femaleFirstName()
+- random.lastName()
+- random.name()
+- random.world()
+- random.sentence()
+- random.title()
+- random.paragraph()
+
+
 
 ## Contributing
 
