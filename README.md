@@ -37,18 +37,18 @@ random.char();
 | float([min, max, precision])  | Generate a random float.  | [Link](https://github.com/mock-end/random-decimal#random-decimal)  |
 | bool([seed1, seed2, ref])  | Generate a random boolean (true/false). | [Link](https://github.com/mock-end/random-bool#random-bool)  |
 | char([pool])  | Generate a random character. | [Link](https://github.com/mock-end/random-char#random-char)  |
-| binary() | | [Link]() |
-| octal() | | [Link]() |
-| hex() | | [Link]() |
-| dx() | | [Link]() |
-| pickOne() | | [Link]() |
-| pickSome() | | [Link]() |
-| shuffle() | | [Link]() |
-| index() | | [Link]() |
-| pickKey() | | [Link]() |
-| pickKeys() | | [Link]() |
-| pickProp() | | [Link]() |
-| pickProps() | | [Link]() |
+| binary([bit]) | Generate a random binary number. | [Link](https://github.com/mock-end/random-binary#random-binary) |
+| octal([min, max]) | Generate a random octal. | [Link](https://github.com/mock-end/random-octal#random-octal) |
+| hex([min, max]) | Generate a random hexadecimal number. | [Link](https://github.com/mock-end/random-hexadecimal#random-hexadecimal) |
+| dx() | Generate a number between `1` and `x`, where `x` is `5` `10`, `20`, `50`, `100`, `200`, `500` and `1000`. |  |
+| pickOne(arr) | Randomly sampling a item from an array. | [Link](https://github.com/mock-end/pick-item#pick-item) |
+| pickSome(arr[, options]) | Randomly sampling some items from an array. | [Link](https://github.com/mock-end/pick-items#pick-items) |
+| shuffle(arr) | Randomize the order of the elements in array or array-like object. | [Link](https://github.com/mock-end/shuffle-arr#shuffle-arr) |
+| index([max]) | Generate a random array-like index. | [Link](https://github.com/mock-end/random-index#random-index) |
+| pickKey(obj) | Randomly sampling a key from an object. | [Link](https://github.com/mock-end/pick-key#pick-key) |
+| pickKeys(obj) | Randomly sampling some keys from an object. | [Link](https://github.com/mock-end/pick-keys#pick-keys) |
+| pickProp(obj) | Randomly sampling a property from an object. | [Link](https://github.com/mock-end/pick-prop#pick-prop) |
+| pickProps(obj) | Randomly sampling some properties from an object. | [Link](https://github.com/mock-end/pick-props#pick-props) |
 | date() | | [Link]() |
 | color() | | [Link]() |
 | uuid() | | [Link]() |
