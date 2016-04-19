@@ -30,8 +30,8 @@ random.char();
 
 ## API
 
-| Method | Description  | Document |
-|:-------|:-------------|:--------:|
+| Method                        | Description  | Document |
+|:------------------------------|:-------------|:--------:|
 | int([min, max])               | Generate a random integer.  | [Link](https://github.com/mock-end/random-integral#random-integral)  |
 | natural([min, max])           | Generate a random [natural number](https://en.wikipedia.org/wiki/Natural_number).  | [Link](https://github.com/mock-end/random-natural#random-natural)  |
 | float([min, max, precision])  | Generate a random float.  | [Link](https://github.com/mock-end/random-decimal#random-decimal)  |
