@@ -30,6 +30,12 @@ random.shuffle  = require('shuffle-arr');
 random.index    = require('random-index');
 
 
+// object
+random.pickKey   = require('pick-key');
+random.pickKeys  = require('pick-keys');
+random.pickProp  = require('pick-prop');
+random.pickProps = require('pick-props');
+
 // datetime
 random.date = require('random-datetime');
 
