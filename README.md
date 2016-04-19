@@ -30,6 +30,17 @@ random.char();
 
 ## API
 
+| Method    | Description  | Document |
+|-----------|---|---|
+| bool  | Generate a random boolean (true/false).  | [Link](https://github.com/mock-end/random-bool#random-bool)  |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+
 - random.bool()
 - random.char()
 - random.int()
