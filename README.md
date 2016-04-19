@@ -30,21 +30,16 @@ random.char();
 
 ## API
 
-| Method    | Description  | Document |
-|-----------|---|---|
-| bool  | Generate a random boolean (true/false).  | [Link](https://github.com/mock-end/random-bool#random-bool)  |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
+| Method | Description  | Document |
+|--------|--------------|----------|
+| int([min, max])  | Generate a random integer.  | [Link](https://github.com/mock-end/random-integral#random-integral)  |
+| natural([min, max])  | Generate a random [natural number](https://en.wikipedia.org/wiki/Natural_number).  | [Link](https://github.com/mock-end/random-natural#random-natural)  |
+| float([min, max, precision])  | Generate a random float.  | [Link](https://github.com/mock-end/random-decimal#random-decimal)  |
+| bool([seed1, seed2, ref])  | Generate a random boolean (true/false).  | [Link](https://github.com/mock-end/random-bool#random-bool)  |
+|   |   | [Link]()  |
 
 - random.bool()
 - random.char()
-- random.int()
-- random.natural()
 - random.float()
 - random.binary()
 - random.octal()
