@@ -37,7 +37,7 @@ random.char();
 | float([min, max, precision])  | Generate a random float.  | [Link](https://github.com/mock-end/random-decimal#random-decimal)  |
 | bool([seed1, seed2, ref])     | Generate a random boolean (true/false). | [Link](https://github.com/mock-end/random-bool#random-bool)  |
 | char([pool])                  | Generate a random character. | [Link](https://github.com/mock-end/random-char#random-char)  |
-| string([options])             | Generate a random string. | [Link](https://github.com/mock-end/random-utility/blob/master/lib/string.js#L11)  |
+| string([pool, length])        | Generate a random string. | [Link](https://github.com/mock-end/random-utility/blob/master/lib/string.js#L11)  |
 | binary([bit])                 | Generate a random binary number. | [Link](https://github.com/mock-end/random-binary#random-binary) |
 | octal([min, max])             | Generate a random octal. | [Link](https://github.com/mock-end/random-octal#random-octal) |
 | hex([min, max])               | Generate a random hexadecimal number. | [Link](https://github.com/mock-end/random-hexadecimal#random-hexadecimal) |

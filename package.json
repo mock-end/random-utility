@@ -1,6 +1,6 @@
 {
   "name": "random-utility",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Javascript utilities for generating random data.",
   "main": "index.js",
   "scripts": {
